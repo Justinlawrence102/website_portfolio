@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Onetel Template - About</title>
+    <meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 
+OneTel Template
+http://www.templatemo.com/tm-468-onetel
+-->
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/templatemo-style.css">
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	
+<!-- about header section -->
+<div id="ROS-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12"></div>
+		</div>
+	</div>
+</div>
+<!-- Quick Stats section -->
+ <div id="quickStats"> 
+			<div class="col-md-6 col-sm-6">
+				<h2>Quick Stats:</h2>
+				<h3>May 2020 - August 2020 </h3>
+				<p>Created a Rock Paper Scissors game using python and computer vision</p>
+			</div>
+			<div class="col-md-6 col-sm-6">
+				<h3>Technology Used:</h3>
+				<p> Python, Open VC, Tkinter </p>
+				<h3>Skills Applied:</h3>
+				<p>Problem Solving, Learning new topics</p>
+			</div>
+		</div>
+		<div class="col-md-12 col-sm-12">
+				<hr>
+		</div>
+
+<!-- team section -->
+<div id="team">
+	<div class="container">
+    
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Rock Paper Scissors </h2>
+				<h3 style="text-align:center;">Python Computer Visions Game</h3>
+                <p>In my AI class I took in the fall of 2019, I learned the fundamentels of computer vision, but we did not do any program examples. I decided I wanted to also teach myself Python, so combining these two things together I spent a month working through tutorials of Python and a computer vision framework called Open VC.</p>
+                <p> Then, I used all of the new skills I learned to create a python application that allows the users to play Rock Paper Scissors against a computer. Using Open CV, I allow the user to put up a hand signal and the program will detect if it is a rock, papper, or scissor. The scoring is then done automatically in either a best 2 of 3 or best 3 of 5 match. </p>
+                <p> To create a program that can idenify a hand in an image, and then figure out what shape it is making, I needed to use a variaty of image procressing techinques. First, I had to get a threshold to try to identify where in the hand was. Then, using various iscolation techiques, I am able to find the contours of the hand. With this data, I parse through all of the contours and can get a relativily accurate estimation of how many fingers are being shown. I translate this number into a guess of what shape the user is making. Because I am taking hundreds of images in the couple of seconds that the hand is being detected, I take an average of all of the guesses made to pick the one that is most likily correct. 
+
+                <<h4>> View the GitHub Page: https://github.com/Justinlawrence102/openCV_Project </h4>
+                <a href="https://github.com/Justinlawrence102/openCV_Project">View the GitHub Page</a>
+
+			</div>
+         </div>
+         
+         <div class="row mt30">
+			<div class="col-md-6 col-sm-6 col-xs-9">
+				<div class="team-wrapper">
+					<img src="images/detect_hand.jpg" class="img-responsive" alt="team img">
+					<h4>Hand Detection Algorithum</h4>
+					<p>This is a screenshot of an image after it has been decomposed. The yellow outline is in the shape of the hand, and the red dots represent each finger tip</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-6 col-xs-9">
+				<div class="team-wrapper">
+				<img src="images/UI_test.jpg" class="img-responsive" alt="team img">
+					<h4>UI Design</h4>
+					<p>I used Tkinter to create a user interface to play the game against a computer. By clicking through the buttons, you can play an entire game against a computer oponenet</p>
+				</div>
+			</div>
+         </div>
+	</div>
+</div>		
+
+<!-- copyright section -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-6">
+				<p>Copyright © 2020 Justin Lawrence</p>
+			</div>
+			<div class="col-md-6 col-sm-6">
+<!-- 				<ul class="social-icons">
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-dribbble"></a></li>
+					<li><a href="#" class="fa fa-pinterest"></a></li>
+					<li><a href="#" class="fa fa-behance"></a></li>
+					<li><a href="#" class="fa fa-envelope-o"></a></li>
+				</ul> -->
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

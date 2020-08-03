@@ -185,7 +185,49 @@ img {
 
 /* about section */
 #about-header {
-  background: url('../images/about-header.jpg') no-repeat;
+  background: url('../images/logride-header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
+#designTeam-header {
+  background: url('../images/designTeam-header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
+#ROS-header {
+  background: url('../images/RPS_Header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
+#tiz-header {
+  background: url('../images/Tiz_header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
+#travel_agent-header {
+  background: url('../images/travel_agent-header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
+#embedded-header {
+  background: url('../images/embedded-header.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  padding-top: 160px;
+}
+#RITDC-header {
+  background: url('../images/RITDC-header.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   min-height: 500px;
@@ -280,7 +322,11 @@ img {
   padding-bottom: 10px;
   }
 #portfolio h2 {
-  padding-bottom: 5px;
+  padding-bottom: 0px;
+}
+#portfolio h3 {
+    font-size: 18px;
+	color: #0087CF;
 }
 #portfolio p {
     font-size: 16px;
